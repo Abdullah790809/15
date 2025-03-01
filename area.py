@@ -1,10 +1,8 @@
 import math
-length = input("Please input a length: ")
-radius = int(input("Please input a radius: "))
-length = float(length)
-area = math.pow(length, 2)
-area2 = 3.14 * radius
-area3 = math.pow(area2, 2)
-area4 = 0.5 * area3
-area5 = area4 + area
-print("The area of the object is: ", area5)
+length = int(input("What is your lenght"))
+area1 = math.sqrt(length)
+area2 = area1 * 4
+area3 = area1 * 3.14
+area4 = area3 / 2
+area5 = area2 + area4
+print("Your area is: " , area5)
