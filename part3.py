@@ -1,13 +1,13 @@
 x = int(input("How much cents do you have: ")) # gets user input and turns in into an integer
-money = x//100 # Calculates whole dollars 
-cents = x % 100 # finds any remainder and stores it in cents variable 
-q = cents//25 # finds how many qaurters can fit in to the amount of cents
-cents = cents%25 # finds out any remaider
-d = cents//10 # finds out how many dimes can fit in to the cents left 
-cents = cents%10 # find out  any remainder 
-n = cents//5 # find out how many nickles can fit in to the amount of cents left
-cents = cents%5 # finds out any remainder
-p = cents # any remaning cents left will be stored in the variable p which is short form for pennies
+money = x//100 # Calculates whole dollars and assigns it to variable money
+cents = x % 100 # finds any remainder and stores it in cents variable and assigns it to variable cents
+q = cents//25 # finds how many qaurters can fit in to the amount of cents and assigns it to variable q
+cents = cents%25 # finds out any remaider and assigns it to variable cents 
+d = cents//10 # finds out how many dimes can fit in to the cents left and assigns it to variable d
+cents = cents%10 # find out  any remainder and assigns it to variable cents
+n = cents//5 # find out how many nickles can fit in to the amount of cents left and assigns it to variable n
+cents = cents%5 # finds out any remainder and assigns it to variable cents 
+p = cents # any remaning cents left will be stored in the variable p which is short form for pennies 
 if x == 0:     # states if user inputs 0
    print("no change") # It will returnan output sating no change 
 if money  == 1: # if  the number  assigned variable money is equal to a dollar
