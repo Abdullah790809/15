@@ -1,17 +1,17 @@
-print("Welcome to the even and odd detector")
-num1 = int(input("please input a Number other than 0"))
-if num1 == 0:
-  num1 = int(input("Please input a nonzero number : "))
+print("Welcome to the even and odd detector") 
+num1 = int(input("please input a Number other than 0")) #Gets user input and converts it into and integer
+if num1 == 0: # if Variable num1 is equal to 0 
+  num1 = int(input("Please input a nonzero number : ")) # Gets correct user input and converts it into and integer
   
-num2 = int(input("please input a second number other than 0"))
+num2 = int(input("please input a second number other than 0")) # Gets user input and coverts it into and integer
 
   
-if num2 == 0:
-  num2 = int(input("Please input a nonzero number : "))
+if num2 == 0: # if Variable num2 is equal to 0 
+  num2 = int(input("Please input a nonzero number : ")) # Gets correct user input and converts it into and integer
 
-num3 = num1 * num2
-rem = num3 % 2
-if rem == 0:
-   print("the product of your 2 Numbers is even")
-else:
-  print("The product of your 2 Numbers is odd")
+num3 = num1 * num2 # Gets the product of of the two numbers assigned to num1 and num2 and assignes it variable num3 
+rem = num3 % 2 # Finds out any remainder and assignes it to rem
+if rem == 0: if variable rem is equal 
+   print("the product of your 2 Numbers is even") # Its will give output the product of your 2 Numbers is even
+else: if variable rem is something else 
+  print("The product of your 2 Numbers is odd") # Its will give an output the product of your 2 Number is odd 
