@@ -1,3 +1,17 @@
+
+### PART 1: Even or Odd ###
+"""
+  Author : Abdullah Parvez
+  Student Number : 790809
+  Revison date : 2 March 2025
+  Program : money change
+  Description : A program that determines amount of change
+
+
+
+
+
+
 x = int(input("How much cents do you have: ")) # gets user input and turns in into an integer
 money = x//100 # Calculates whole dollars and assigns it to variable money
 cents = x % 100 # finds any remainder and stores it in cents variable and assigns it to variable cents
