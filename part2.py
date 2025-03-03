@@ -3,8 +3,8 @@
   Author : Abdullah Parvez
   Student Number : 790809
   Revison date : 2 March 2025
-  Program : Even or Odd
-  Description : A program that determines whether the product of number is even or odd
+  Program : Inner diagnal leanght calculator
+  Description : A program that determines the inner diagonal lenght
 VARIABLE DICTIONARY
   x(int) = the first number inputted by the user
   num(int) = holds the number 3 
