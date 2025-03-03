@@ -1,3 +1,17 @@
+### PART 1: Even or Odd ###
+"""
+  Author : Abdullah Parvez
+  Student Number : 753619
+  Revison date : 1 March 2025
+  Program : Even or Odd
+  Description : A program that determines whether the product of number is even or odd
+VARIABLE DICTIONARY
+  num1(int) = the first number inputted by the user
+  num2(int) = the second number inputted by the user
+  num3(int) = The product (multiplication) of the first number and the second number.
+"""
+
+
 print("Welcome to the even and odd detector") 
 num1 = int(input("please input a Number other than 0")) #Gets user input and converts it into and integer
 if num1 == 0: # if Variable num1 is equal to 0 
