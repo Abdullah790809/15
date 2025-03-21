@@ -5,6 +5,8 @@ print("Hello! Welcome to the number guessing game!")
 print("I am thinking of a number between 1 and 100. It is your turn to guess what it is. You have a maximum of six (6) tries.")
 c = 1 
 x = 0
+while x == (str)
+     print("your awnser has to be a number")
 while c < 7 and x != a:
     x = int(input("Guess #" + str(c) + ": "))
     if x < a:
@@ -16,5 +18,7 @@ while c < 7 and x != a:
     c += 1
 if c >= 7 and x != a:
     print("you are out of guesses! The answer was" , a , ". Better luck next time!")
+while (x > 100) or (x < 1)
+     print("The Number is between 1 and 100")
 
 
