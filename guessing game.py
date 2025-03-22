@@ -16,10 +16,10 @@ while c < 7 and x != a:
     if x == a:
        print("You Guessed right!")
     if (x > 100) or (x < 1):
-     print("The Number is between 1 and 100 your output was not in that range")
+       print("The Number is between 1 and 100 your output was not in that range")
 
     c += 1
-if c >= 7 and x != a:
-    print("you are out of guesses! The answer was" , a , ". Better luck next time!")
+    if c >= 7 and x != a:
+       print("you are out of guesses! The answer was" , a , ". Better luck next time!")
 
 
