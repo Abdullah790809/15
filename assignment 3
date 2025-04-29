@@ -1,6 +1,6 @@
-word_list = ["level", "noon", "goal", "radar", "bed", "soccer", "civic", "hotel", "cake", "madam"]
+word_grit = ["level", "noon", "goal", "radar", "bed", "soccer", "civic", "hotel", "cake", "madam"]
 
-for word in word_list:
+for word in word_grit:
     reversed_word = word[::-1]
     if word == reversed_word:
         print(word, "is a palindrome")
