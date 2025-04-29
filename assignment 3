@@ -6,5 +6,3 @@ for word in list: #loop for each word in the list
         print(word, "is a palindrome")  # outputs that is a palindrom
     else:  # otherwise 
         print(word, "is not a palindrome") # outputs is not a palindrom
-
-print("Goodbye!")  # end messeage Goodbye!
