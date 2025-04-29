@@ -1,10 +1,10 @@
-word_grit = ["level", "noon", "goal", "radar", "bed", "soccer", "civic", "hotel", "cake", "madam"]
+word_grit = ["level", "noon", "goal", "radar", "bed", "soccer", "civic", "hotel", "cake", "madam"]  #Creates a list of words assigned to word_grit
 
-for word in word_grit:
-    reversed_word = word[::-1]
-    if word == reversed_word:
-        print(word, "is a palindrome")
-    else:
-        print(word, "is not a palindrome")
+for word in word_grit: #loop for each word in the list 
+    reversed_word = word[::-1] #Reversed_word is a assigned to the reverse of the word that passes through the loop  
+    if word == reversed_word:     #conditional stating that if word is equal to reversed_word
+        print(word, "is a palindrome")  # outputs that is a palindrom
+    else:  # otherwise 
+        print(word, "is not a palindrome") # outputs is not a palindrom
 
-print("Goodbye!")
+print("Goodbye!")  # end messeage Goodbye!
