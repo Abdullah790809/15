@@ -1,5 +1,5 @@
 list = ["level", "noon", "goal", "radar", "bed", "soccer", "civic", "hotel", "cake", "madam"]  #Creates a list of words assigned to word_grit
-
+print("welcome to the Palindrome detector")
 for word in list: #loop for each word in the list 
     reversed = word[::-1] #Reversed_word is a assigned to the reverse of the word that passes through the loop  
     if word == reversed:     #conditional stating that if word is equal to reversed
