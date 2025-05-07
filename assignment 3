@@ -1,8 +1,13 @@
-list = ["level", "noon", "goal", "radar", "bed", "soccer", "civic", "hotel", "cake", "madam"]  #Creates a list of words assigned to word_grit
-print("welcome to the Palindrome detector")
-for word in list: #loop for each wvcord in the list 
-    reversed = word[::-1] #Reversed_word is a assigned to the reverse of the word that passes through the loop  
-    if word == reversed:     #conditional stating that if word is equal to reversed
-        print(word, "is a palindrome")  # outputs that is a palindrom
-    else:  # otherwise 
-        print(word, "is not a palindrome") # outputs is not a palindrom
+w = ["level", "noon", "goal", "radar", "bed", "soccer", "civic", "hotel", "cake", "madam"]
+for x in w:
+  palindrome = True
+  length = len(x)
+  i = 0
+  while i < length // 2:
+    if x[i] != x[length - 1 - i]:
+      palindrome = False
+    i += 1
+  if palindrome:
+    print(x , "is a palindrome")
+  else:
+    print(x , "is not a palindrome")
