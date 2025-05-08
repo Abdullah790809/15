@@ -1,4 +1,17 @@
-
+### Is it a Palindrome? ###
+"""
+  Author : Abdullah Parvez
+  Student Number : 790809
+  Revision date : 8, may, 2025
+  Program : Is it a Palindrome?
+  Description : A game which identifies if certain words are Palindromes
+VARIABLE DICTIONARY
+  w = To a list of words
+  i(int) = Assigned to 0
+  length(int) = length of x
+  Palindrome = False
+  x = Every individual word
+"""
 
 w = ["level", "noon", "goal", "radar", "bed", "soccer", "civic", "hotel", "cake", "madam"]  # assigns to list of words 
 
