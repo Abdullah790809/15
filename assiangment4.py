@@ -33,12 +33,17 @@ def search_date(mon, dy, yr):
 file_loaded = True
 
 try:
-    with open("/workspaces/ICS3U_S2/ICS3U/Data/wordle.dat", "r") as file:
-        for line in file:
-            data_lines.append(line.strip().split())
-except OSError as e:
-    print("There was a problem opening the file:", e)
-    file_loaded = False
+    try:
+    file = open("wordle.dat", "r")  # Open the file in the same folder
+    line = file.readline().strip()  # Read the first line and remove spaces/newlines
+    while line != "":  # Keep reading until the end
+        data_lines.append(line.split())  # Split the line and add it to the list
+        line = file.readline().strip()  # Read the next line
+    file.close()  # Close the file when done
+except OSError:
+    print("Could not open the file.")  # Show error if file can't be opened
+    file_loaded = False  # Mark file as not loaded
+
 
 # If the file loaded, continue with processing
 if file_loaded:
