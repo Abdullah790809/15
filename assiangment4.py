@@ -33,7 +33,6 @@ def search_date(mon, dy, yr):
 file_loaded = True
 
 try:
-    try:
     file = open("wordle.dat", "r")  # Open the file in the same folder
     line = file.readline().strip()  # Read the first line and remove spaces/newlines
     while line != "":  # Keep reading until the end
