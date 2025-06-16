@@ -87,4 +87,4 @@ if file_loaded:
 
     # Greet the user and ask how they want to search
     print("Welcome to the Wordle Finder!")
-    option = input("Enter 'w' to search by word or 'd' to search by date: ").lower(
+    option = input("Enter 'w' to search by word or 'd' to search by date: ").lower()
