@@ -1,3 +1,42 @@
+"""
+ Author : Abdullah Parvez
+  Student Number : 790809
+  Revison date : 17 june 2025
+  Program : Credit Card Report
+  Description :The output of this program will be the expired or soon-to-be-expired credit cards, giving the subscriber's:
+name,
+credit card type,
+credit card number, and
+expiry date, in order of date from past to future.
+
+Dictonary
+
+last_names      : List that stores all customers last names
+cc_types        : List that stores credit card types Visa or MasterCard
+cc_numbers      : List that stores the credit card numbers as strings
+exp_months      : List that stores the expiry month as integers
+exp_years       : List that stores the expiry year as integers
+exp_dates       : List that stores expiry dates in yyyymm format 
+cutoff_date     : The last valid date June 2025 used to check if cards are expired
+file            : The file object used to open and read data.dat
+line            : One line from the file being read
+parts           : A list that holds the parts of each line split by commas
+expired_indexes : List of indexes for credit cards that are expired or need renewal
+i, j            : Loop counters used when finding expired cards and sorting them
+full_name       : The customers full name irst + last
+card_type       : The type of credit card Visa or MasterCard
+card_num        : The credit card number with a # added at the front
+date_num        : Expiry date in yyyymm format, used to compare against cutoff_date
+month_str       : Month as a two-digit string
+date_str        : Final expiry date as a string used when printing
+status          : Shows if the card is EXPIRED or “RENEW IMMEDIATELY”
+"""
+
+
+
+
+
+
 # Arrays to store data
 first_names = []     # Stores first names
 last_names = []      # Stores last names
